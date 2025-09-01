@@ -736,8 +736,9 @@
     }
 
     .right img {
-        width: 400px;
+        width: 350px;
         object-fit: cover;
+        overflow-x: hidden;
     }
 
     .image-1 img {
@@ -884,7 +885,7 @@
     }
 
     .box img {
-        width: 360px;
+        width: 350px;
         object-fit: cover;
     }
 
@@ -911,10 +912,8 @@
 
     .box {
         position: relative;
-        width: 360px;
+        width: 350px;
         overflow-x: hidden;
-        height: 67vh;
-        margin-left: 2%;
         margin-bottom: 9px;
         box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
         background-color: white;
@@ -967,6 +966,7 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 9px;
+        overflow-x: hidden;
     }
 
     /* catagories */
@@ -1118,7 +1118,7 @@
     }
 
     .box-21 {
-        width: 350px;
+        width: 320px;
         margin-bottom: 30px;
         height: 340px;
         overflow-x: hidden;
@@ -1151,17 +1151,14 @@
     }
 
     .box2 {
-        width: 360px;
+        width: 350px;
         margin-top: 20px;
-        overflow-x: hidden;
-        margin-left: 2%;
-        height: 350px;
         background-color: white;
         box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
     }
 
     .box2 img {
-        width: 370px;
+        width: 350px;
         object-fit: cover;
     }
 
@@ -1201,6 +1198,7 @@
     .laste-flex {
         display: flex;
         flex-direction: column;
+        overflow-x: hidden;
     }
 
     /* end */
@@ -1213,7 +1211,7 @@
 
     .roW img {
         margin-top: 20px;
-        width: 400px;
+        width: 350px;
     }
 
     .roW h2 {
