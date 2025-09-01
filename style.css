@@ -962,6 +962,8 @@
         grid-template-columns: repeat(1, 1fr);
         gap: 9px;
         overflow-x: hidden;
+         justify-content: center;
+        align-items: center;
     }
 
     /* catagories */
@@ -1196,6 +1198,8 @@
         display: flex;
         flex-direction: column;
         overflow-x: hidden;
+        justify-content: center;
+        align-items: center;
     }
 
     /* end */
@@ -1256,7 +1260,7 @@
     }
 
     .worke h1{
-        font-size: 20px;
+        font-size: 17px;
     }
      .resoy {
         margin-top: 1rem;
