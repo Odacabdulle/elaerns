@@ -797,6 +797,8 @@
     .hro {
         display: flex;
         flex-direction: column;
+        max-width: 300px;
+        margin-left: -20px;
 
     }
 
@@ -840,7 +842,7 @@
     /* coiurse */
     .course {
         background-color: #f3f1f1e4;
-        padding: 60px
+        padding: 10px
     }
 
     .row-2 h1 {
@@ -902,7 +904,7 @@
     .box {
         position: relative;
         width: 320px;
-        margin-left: -5%;
+        margin-left: 5%;
         height: 70vh;
         box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
         background-color: white;
