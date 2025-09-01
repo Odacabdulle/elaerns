@@ -630,14 +630,16 @@
 .roW h2 {
     font-size: 40px;
 }
-.roW input{
+
+.roW input {
     margin-bottom: 10px;
     border-radius: 20px;
     padding: 6px;
     width: 100%;
 }
+
 /* footer */
-.footer{
+.footer {
     position: relative;
     display: flex;
     justify-content: space-evenly;
@@ -647,16 +649,19 @@
     margin: 10px;
 }
 
-.logo-desc p{
+.logo-desc p {
     max-width: 300px;
 }
-.logo-desc h2{
- font-size: 20px;
+
+.logo-desc h2 {
+    font-size: 20px;
 }
-.logo-desc h1{
- font-size: 20px;
+
+.logo-desc h1 {
+    font-size: 20px;
 }
-.for{
+
+.for {
     margin-top: 40px;
     position: absolute;
     bottom: 0;
@@ -665,10 +670,12 @@
     gap: 500px;
     justify-content: space-between;
 }
-.worke p{
+
+.worke p {
     margin: 10px;
     border-bottom: 3px solid var(--primar-color);
 }
+
 @media (max-width: 480px) {
 
     .navber,
@@ -877,7 +884,7 @@
     }
 
     .box img {
-        width: 390px;
+        width: 370px;
         object-fit: cover;
     }
 
@@ -904,9 +911,9 @@
 
     .box {
         position: relative;
-        width: 390px;
-        margin-left: -1%;
-        height: 70vh;
+        width: 370px;
+        overflow-x: hidden;
+        height: 67vh;
         margin-bottom: 9px;
         box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
         background-color: white;
@@ -1097,13 +1104,15 @@
         position: relative;
         width: 350px;
         height: 250px;
+        overflow-x: hidden;
         border-radius: 20px 50px 0px;
         background-color: rgb(166, 130, 166);
     }
 
     .br img {
         position: absolute;
-        top: 80;
+        top: -10px;
+        overflow-x: hidden;
         height: 260px;
     }
 
@@ -1111,8 +1120,8 @@
         width: 350px;
         margin-bottom: 30px;
         height: 340px;
+        overflow-x: hidden;
         background-color: beige;
-        margin-left: -5px;
     }
 
     .row-21 {
@@ -1141,16 +1150,17 @@
     }
 
     .box2 {
-        width: 390px;
+        width: 370px;
         margin-top: 20px;
-        margin-left: -1%;
-        height: 370px;
+        overflow-x: hidden;
+        height: 350px;
         background-color: white;
         box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
     }
 
     .box2 img {
-        width: 390px;
+        width: 370px;
+        object-fit: cover;
     }
 
     .box2 p {
@@ -1190,53 +1200,62 @@
         display: flex;
         flex-direction: column;
     }
+
     /* end */
     .roW {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    max-width: 200px;
-}
-.roW img{
-    margin-top: 20px;
-    width: 400px;
-}
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        max-width: 200px;
+    }
 
-.roW h2 {
-    font-size: 40px;
-}
-.roW input{
-    margin-bottom: 10px;
-    border-radius: 20px;
-    padding: 6px;
-    width: 90%;
-}
-.footer{
-      display: flex;
-    flex-direction: column;
-}
+    .roW img {
+        margin-top: 20px;
+        width: 400px;
+    }
 
-.logo-desc p{
-    max-width: 200px;
-}
-.logo-desc h2{
- font-size: 20px;
-}
-.logo-desc h1{
- font-size: 20px;
-}
-.for{
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
-.worke {
-  border-bottom: none;
-  margin-top: 2rem;
+    .roW h2 {
+        font-size: 40px;
+    }
 
-}
-.resoy{
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-}
+    .roW input {
+        margin-bottom: 10px;
+        border-radius: 20px;
+        padding: 6px;
+        width: 90%;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo-desc p {
+        max-width: 200px;
+    }
+
+    .logo-desc h2 {
+        font-size: 20px;
+    }
+
+    .logo-desc h1 {
+        font-size: 20px;
+    }
+
+    .for {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    .worke {
+        border-bottom: none;
+        margin-top: 2rem;
+
+    }
+
+    .resoy {
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
 }
