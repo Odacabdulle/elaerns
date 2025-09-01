@@ -315,7 +315,8 @@
 
 .box {
     position: relative;
-    width: 350px;
+    width: 400px;
+    height: none;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
     background-color: white;
 }
@@ -567,14 +568,14 @@
 }
 
 .box2 {
-    width: 350px;
+    width: 400px;
     margin-top: 20px;
     background-color: white;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
 }
 
 .box2 img {
-    width: 350px;
+    width: 400px;
 }
 
 .box2 p {
@@ -613,7 +614,8 @@
 .laste-flex {
     display: flex;
     padding: 10px;
-    max-width: 500px;
+    gap: 30px;
+    justify-content: space-evenly;
 }
 
 .roW {
@@ -657,7 +659,6 @@
 }
 
 .for {
-    max-width: 500px;
     text-align: center;
     bottom: 0;
     background-color: #083374;
@@ -880,7 +881,7 @@
     }
 
     .box img {
-        width: 350px;
+        width: 370px;
         object-fit: cover;
     }
 
@@ -907,8 +908,7 @@
 
     .box {
         position: relative;
-        width: 350px;
-        overflow-x: hidden;
+        width: 370px;
         margin-bottom: 9px;
         box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
         background-color: white;
@@ -1098,9 +1098,7 @@
 
     .br {
         position: relative;
-        width: 350px;
-        height: 250px;
-        overflow-x: hidden;
+        width: 320px;
         border-radius: 20px 50px 0px;
         background-color: rgb(166, 130, 166);
     }
@@ -1108,25 +1106,25 @@
     .br img {
         position: absolute;
         top: -10px;
-        overflow-x: hidden;
-        height: 260px;
+
     }
 
     .box-21 {
         width: 320px;
         margin-bottom: 30px;
-        height: 340px;
-        overflow-x: hidden;
         background-color: beige;
     }
 
     .row-21 {
 
         display: flex;
+        overflow-x: hidden;
         flex-direction: column;
     }
-    .box-21 p ,h2{
-            text-align: center;
+
+    .box-21 p,
+    h2 {
+        text-align: center;
     }
 
     .row-21 p {
@@ -1150,14 +1148,14 @@
     }
 
     .box2 {
-        width: 350px;
+        width: 370px;
         margin-top: 20px;
         background-color: white;
         box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
     }
 
     .box2 img {
-        width: 350px;
+        width: 370px;
         object-fit: cover;
     }
 
@@ -1206,6 +1204,7 @@
         align-items: center;
         flex-direction: column;
         max-width: 200px;
+        overflow-x: hidden;
     }
 
     .roW img {
@@ -1246,19 +1245,26 @@
         flex-direction: column;
     }
 
-    .worke  {
-        margin-top: -2rem;
+    .worke {
+        margin-top: 1rem;
+        font-size: 14px;
 
     }
-    .worke p{
+
+    .worke p {
         border-bottom: none;
     }
-    .resoy {
+
+    .worke h1{
+        font-size: 20px;
+    }
+     .resoy {
         margin-top: 1rem;
         margin-bottom: 2rem;
     }
-    .gr{
-    
+
+    .gr {
+
         display: flex;
         gap: 20px;
         max-width: 500px;
