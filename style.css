@@ -703,7 +703,7 @@
     }
 
     .left {
-        width: 350px;
+        width: 300px;
         margin-left: 30px;
     }
 
@@ -748,8 +748,8 @@
     .image-3 img {
         position: absolute;
         top: auto;
-        bottom: 20%;
-        left: 50%;
+        bottom: 23%;
+        left: 60%;
         width: 50px;
     }
 
@@ -857,6 +857,8 @@
         list-style: none;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        max-width: 300px;
+        margin-left: -30px;
     }
 
     .row-3 {
@@ -870,7 +872,7 @@
     }
 
     .box img {
-        width: 350px;
+        width: 320px;
         object-fit: cover;
     }
 
@@ -887,7 +889,7 @@
     .row-1 {
         display: flex;
         align-items: center;
-        gap: 10px;
+        gap: 8px;
     }
 
     .img-icon {
@@ -897,7 +899,7 @@
 
     .box {
         position: relative;
-        width: 350px;
+        width: 320px;
         height: 70vh;
         box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
         background-color: white;
@@ -921,7 +923,7 @@
 
     .pers {
         border-top: 0.2px solid var(--primar-color);
-        margin-left: 9px;
+        margin-left: -1px;
         padding: 6px;
         margin-top: -20px;
         display: flex;
@@ -931,7 +933,7 @@
 
     .pers h1 {
         margin-left: 40%;
-        font-size: 20px;
+        font-size: 16px;
         color: var(--primar-color);
     }
 
@@ -950,7 +952,7 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 10px;
-        margin-left: -45px;
+        margin-left: -20px;
     }
 
     /* catagories */
@@ -1131,16 +1133,16 @@
     }
 
     .box2 {
-        width: 350px;
+        width: 320px;
         margin-top: 20px;
-        margin-left: 3%;
+        margin-left: 5%;
         height: 370px;
         background-color: white;
         box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
     }
 
     .box2 img {
-        width: 350px;
+        width: 320px;
     }
 
     .box2 p {
